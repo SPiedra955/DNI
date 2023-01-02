@@ -6,7 +6,7 @@ def test_dni_is_correct():
     assert True == dni('49482728').check_dni_number()
     assert True == dni('49482727').check_dni_number()
     assert True == dni('52548265').check_dni_number()
-    assert 'Check your DNI '== dni('48?48@/?¿').check_dni_number()
+    assert 'Check your DNI'== dni('48?48@/?¿').check_dni_number()
     assert 'Check your DNI' == dni('494827288').check_dni_number()
   
 @pytest.mark.letter_correct_dni
