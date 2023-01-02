@@ -1,5 +1,5 @@
 class dni:
-    
+
     def __init__(self, numberDni):
         self.number = numberDni
         self.validNumbersInDni = '0123456789'
