@@ -17,10 +17,10 @@ class dni:
         if dni.check_dni_number(self) == True:
             return self.number + Letter.get_dni_letter(self)
         return 'Insert DNI again'
-#This is an heritance from the previous class dni,the next class will contain all the functions from his father and also we can 
-#invocate them and add new attributes or variables to make new parameters.
+#This is an son from class dni,from his son we can call each function inside his father, 
+#We invocated the dni class and we add attributes or variables to make new parameters.
 class Letter(dni):
-#in this line we call function __init__ from the class dni and this return us the parameters inside.If we write 'def'automatically the function is called     
+#in this line we call the class dni and this return us the parameters inside.If we write 'def'automatically the class is called    
     def __init__(self, number):
         dni.__init__(self, number)
 
