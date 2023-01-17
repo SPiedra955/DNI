@@ -11,9 +11,9 @@ def test_dni_is_correct():
   
 @pytest.mark.letter_correct_dni
 def test_letter_correct_dni():
-    assert 'E' == getLetter('49482728').get_dni_letter()
-    assert 'K' == getLetter('49482727').get_dni_letter()
-    assert 'G' == getLetter('52548265').get_dni_letter()
+    assert 'E' == letter('49482728').get_dni_letter()
+    assert 'K' == letter('49482727').get_dni_letter()
+    assert 'G' == letter('52548265').get_dni_letter()
     
 @pytest.mark.dni_with_letter
 def test_dni_with_letter():

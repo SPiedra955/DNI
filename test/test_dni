@@ -1,0 +1,6 @@
+from src.dni import *
+import pytest
+
+@pytest.mark.check_document
+def test_check_document():
+    assert 
