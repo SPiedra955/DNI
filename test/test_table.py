@@ -3,12 +3,12 @@ import pytest
 
 @pytest.mark.testGetLetter
 def test_get_letter():
-    assert assignment_table().getLetter(22)== "E"
-    assert assignment_table().getLetter(8)== "P"
-    assert assignment_table().getLetter(21)== "K"
-    assert assignment_table().getLetter(23)== 'Letter out of range'
-    assert assignment_table().getLetter(31)== 'Letter out of range'
-    assert assignment_table().getLetter(28)== 'Letter out of range'
+    assert assignment_table().getLetter(22) == "E"
+    assert assignment_table().getLetter(10) == "X"
+    assert assignment_table().getLetter(21) == "K"
+    assert assignment_table().getLetter(23) == 'Letter out of range'
+    assert assignment_table().getLetter(31) == 'Letter out of range'
+    assert assignment_table().getLetter(28) == 'Letter out of range'
     
 @pytest.mark.testGetDividend
 def test_get_dividend():
@@ -23,4 +23,3 @@ def test_calculating_letter():
     assert assignment_table().calculatingLetter('5//48/65') == 'DNI must be integers'
     assert assignment_table().calculatingLetter('*/)08/76') == 'DNI must be integers'
     assert assignment_table().calculatingLetter('3ç+]8/15') == 'DNI must be integers'
-
