@@ -12,8 +12,8 @@ def test_get_letter():
     
 @pytest.mark.testGetDividend
 def test_get_dividend():
-    assert assignment_table().getDividend() == 23
-    assert assignment_table().getDividend() != 'Check table' 
+    assert assignment_table().getReminder() == 23
+    assert assignment_table().getReminder() != 'Check table' 
 
 @pytest.mark.testCalculatingLetter
 def test_calculating_letter():

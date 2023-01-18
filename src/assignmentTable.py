@@ -1,8 +1,8 @@
 class assignment_table:
     
     def __init__(self):
-        self.table = [ 'T', 'R', 'W', 'A', 'G', 'M', 'Y', 'F', 'P', 'D', 'X', 'B', 'N', 'J', 
-					   'Z', 'S', 'Q', 'V', 'H', 'L', 'C', 'K', 'E' ]  
+        self.table = [ "T", "R", "W", "A", "G", "M", "Y", "F", "P", "D", "X", "B", 
+                                  "N", "J" ,"Z" ,"S" ,"Q" ,"V" ,"H" ,"L" ,"C" ,"K" ,"E" ]
 #Encapsulation   
     def getLetter(self, position):      
         try:
@@ -10,7 +10,7 @@ class assignment_table:
         except:
             return 'Letter out of range'       
 #Every method have is responsability   
-    def getDividend(self):
+    def getReminder(self):
         try:
             return len(self.table)
         except:
@@ -19,7 +19,7 @@ class assignment_table:
     
     def calculatingLetter(self, DNI):
         try:
-            position = int(DNI) % len(self.table)
+            position = int(DNI) % self.getReminder()
             return self.getLetter(position)
         except:
             if type(DNI) != int:
