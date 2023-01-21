@@ -35,5 +35,4 @@ The word Domain used in context of software development refers to business. In t
  
  ### DNI domain through UML diagram
 
-![image](https://user-images.githubusercontent.com/114516225/213878174-00596e17-a985-47b7-ac33-5f85f3006226.png) (UML diagram)
-
+![image](https://user-images.githubusercontent.com/114516225/213879235-6d9e1c8e-f0cc-4ee1-93e5-c89588ab132d.png)
