@@ -34,5 +34,11 @@ The word Domain used in context of software development refers to business. In t
   Long-term maintainability.
  
  ### DNI domain through UML diagram
+ 
+ This is a model with some ideas of how to implement the programm and also how they will be connected.It's just a model for have a starting point.
+ 
+![image](https://user-images.githubusercontent.com/114516225/213880372-47fb2912-dec7-476a-a780-a8d69c048d0e.png)
+
+The next image refers which class I used and the methods involved to develop the programm.
 
 ![image](https://user-images.githubusercontent.com/114516225/213879235-6d9e1c8e-f0cc-4ee1-93e5-c89588ab132d.png)
