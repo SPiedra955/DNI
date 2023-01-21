@@ -3,9 +3,9 @@ import pytest
 
 @pytest.mark.check_length
 def test_check_document():    
-    assert dni('49482728E').checkLength() == 'Checking DNI given'
-    assert dni('49482723388E').checkLength() == False
-    assert dni('48288').checkLength() == False
+    assert dni('49482728E').checkLenDni() == 'Checking DNI given'
+    assert dni('49482723388E').checkLenDni() == False
+    assert dni('48288').checkLenDni() == False
 
 @pytest.mark.check_num
 def test_check_num():

@@ -9,7 +9,7 @@ class dni:
     def setDni(self, document):
         self.dni = document
 
-    def checkLength(self):
+    def checkLenDni(self):
         if len(self.dni) == 9:
             return 'Checking DNI given'
         else:
