@@ -17,3 +17,23 @@ The letters are not used: I, Ñ, O, U.
 The "I" and "O" are avoided to avoid confusion with other characters, such as "1", "l" or "0".
 
 Build the program using a vector to store each of the letters in the table above. It then uses a dictionary to store the mapping table. It divides the code by a logic layer and a data access layer so that changes in the data structure used (vector or dictionary) do not imply changes in the code corresponding to the logic.
+
+# Domain Drive Design(DDD)
+
+### What is Domain ?
+
+The word Domain used in context of software development refers to business. In the process of application development, term domain logic or business logic is commonly used. Basically, business logic is area of knowledge around which application logic revolves. The business logic of an application is a set of rules and guidelines that explain how business object should interact with each other to process modeled data.
+
+### Why DDD ?
+
+* Effective communication between domain experts and technical experts through Ubiquitous Languge.
+* Focus on the development of a split area of the domain (subdomain) through Bounded Context's.
+* Software is closer to the domain, and therefore closer to the customer.
+* Well organized code, allowing the testing of the different parts of the domain in isolation.
+* Business logic resides in one place and divided by contexts.
+  Long-term maintainability.
+ 
+ ### DNI domain through UML diagram
+
+![image](https://user-images.githubusercontent.com/114516225/213878174-00596e17-a985-47b7-ac33-5f85f3006226.png) (UML diagram)
+
